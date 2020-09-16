@@ -1,5 +1,16 @@
 # Setting up a Haskell development environment with Nix
 
+- [Introducing Nix](#introducing-nix)
+    - [nix-channel](#nix-channel)
+    - [nix search](#nix-search)
+    - [First using nix-env](#first-using-nix-env)
+    - [Alternatively, using nix-shell](#alternatively-using-nix-shell)
+- [A simple Haskell environment](#a-simple-haskell-environment)
+- [Introducing Direnv and Lorri](introducing-direnv-and-lorri)
+    - [Direnv](#direnv)
+    - [Lorri](#lorri)
+- [Bonus: Setting up Ghcide to work on our project](bonus-setting-up-ghcide-to-work-on-our-project)
+
 We'll explore how to quickly setup a reliable environment to hack on our Haskell projects using the **Nix** language and its **Nixpkgs** infrastructure.
 As we proceed, I'll introduce some auxiliary tools we can add to our stack to streamline our workflow even further. Let's dive in!
 
