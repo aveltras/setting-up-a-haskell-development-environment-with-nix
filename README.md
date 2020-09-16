@@ -1,4 +1,6 @@
-For this first entry, we'll explore how to quickly setup a reliable environment to hack on our Haskell projects using the **Nix** language and its **Nixpkgs** infrastructure.
+# Setting up a Haskell development environment with Nix
+
+We'll explore how to quickly setup a reliable environment to hack on our Haskell projects using the **Nix** language and its **Nixpkgs** infrastructure.
 As we proceed, I'll introduce some auxiliary tools we can add to our stack to streamline our workflow even further. Let's dive in!
 
 ## Introducing Nix
